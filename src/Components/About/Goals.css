@@ -1,0 +1,31 @@
+.goals{
+    background: linear-gradient(rgba(2, 14, 30, 0.927),
+    rgba(11, 4, 3, 0.082)), url('../../assets/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.goals h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.goals p{
+    font-size: 20px;
+    color: #fff;
+}
+.goals ol{
+    display: inline-block;
+}
+.goals ol li{
+    margin-top: 15px;
+    font-size: 18px;
+    color:#fff;
+
+}

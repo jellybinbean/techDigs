@@ -1,0 +1,12 @@
+.achievements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(2, 14, 30, 0.927),
+    rgba(11, 4, 3, 0.082)), url('../../assets/trans.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    font-size: 40px;
+}

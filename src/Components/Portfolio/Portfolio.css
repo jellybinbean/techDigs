@@ -1,0 +1,26 @@
+.project1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:  rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    padding: 20px 0;
+    margin: 70px 0;
+
+}
+.text-content{
+    flex-basis: 40%;
+    }
+.text-content h2 span, span{
+    font-size: 18px;
+    margin-right: 10px;
+    color: #99480e;
+}
+.img img{
+    width: 500px;
+    height: 250px;
+    transition: .5s;
+}
+.img img:hover{
+    transform: scale(110%);
+}

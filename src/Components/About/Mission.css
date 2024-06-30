@@ -1,0 +1,24 @@
+.mission{
+    background: linear-gradient(rgba(7, 47, 99, 0.657),rgba(18, 2, 1, 0.082)), url('../../assets/image3.jpg');
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.mission h1{
+    color: #fff;
+    font-size: 40px;
+
+    font-weight: 700;
+}
+.mission p{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+

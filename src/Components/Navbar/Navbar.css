@@ -1,0 +1,122 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    z-index: 10;
+    /* background: #272343; */
+    
+    }
+.dark-nav{
+    transition: .5s;
+    background: hsla(0, 0%, 0%, 0.867);
+    top: 0;
+
+}
+ nav .title{
+    display: flex;
+    align-items: center;
+   
+}
+.title img{
+    width: 70px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+    font-size: 20px;
+    color: hsla(25, 83%, 33%, 0.752);
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: hsl(25, 83%, 33%);
+}
+.cot-container{
+    display: flex;   
+}
+.cot-container .btn{
+    margin: 0 10px;
+    width: 100px;
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #99480e;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    transition: .5s;
+}
+.cot-container .btn:hover{
+    background: #99480e;
+}
+@media (max-width:1000px){
+    .title img{
+        width: 60px;
+    }
+    nav ul li{
+        font-size: 18px;
+        padding: 0 7px;
+
+    }
+    .cot-container .btn{
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
+.menu-icon {
+    display: none;
+}
+@media (max-width:840px){
+    nav{
+        padding: 15px 0;
+        justify-content: space-between;
+        margin: 0 10px;
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        background: #99480e;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px ;
+        transition: 0.5s;
+    }
+    .cot-container{
+        display: none;
+    }
+    nav ul li{
+        display: block;
+        color: #fff;
+        margin: 25px 20px;
+    }
+    nav ul li:hover{
+        color: black;
+    }
+    .hide-mobile-menu{
+        right: -200px;
+    }
+    
+}

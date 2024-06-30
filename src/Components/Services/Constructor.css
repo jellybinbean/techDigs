@@ -1,0 +1,46 @@
+.main-constructor{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.constructor{
+  width: 350px;
+  position: relative;
+  margin: 10px 0;
+}
+.constructor img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(1, 1, 1, 0.603);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#fff;
+    cursor: pointer;
+    opacity: 0; 
+    padding-top: 70%;
+    transition: .4s;
+}
+.caption ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: 700;
+}
+.constructor h2{
+    text-align: center;
+}
+.constructor:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
