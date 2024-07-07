@@ -102,3 +102,15 @@
 .slider ul li .card{
     width: 280px;
 }
+
+@media (max-width:1000px) {
+    .team-body{
+        display: block;
+        
+    
+    }
+    .team-body .team-lead{
+        margin-left: 40px;
+        
+    }
+}

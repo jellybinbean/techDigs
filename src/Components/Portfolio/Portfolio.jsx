@@ -12,11 +12,12 @@ const Portfolio = () => {
             <h2><span>clients name:</span>Jellybean University</h2>
             <h4><span>Project decsription:</span>This project was a university 
             portfolio project for Jellybean university</h4>
-            <h4><span>project link:</span>Jellybean University</h4>
+            <h4><span>project link:</span><a href=" https://univercity-jelly.vercel.app/">jellybean university</a></h4>
             
         </div>
         <div className="img">
-          <img src={jellybean} alt="" />
+          <a href=" https://univercity-jelly.vercel.app/"> <img src={jellybean} alt="" /></a>
+          
 
         </div>
       </div>
@@ -31,7 +32,7 @@ const Portfolio = () => {
             <h4><span>Project decsription:</span>An ai project that allows users to
             predict diseases basing on the symptoms they experience. it also allows medical officers 
             to check for cancer cells in mri images for patients</h4>
-            <h4><span>project link:</span>Jellybean University</h4>
+            <h4><span>project link:</span><a href="#"></a>O lab</h4>
             
         </div>
         

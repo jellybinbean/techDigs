@@ -24,3 +24,32 @@
 .img img:hover{
     transform: scale(110%);
 }
+@media (max-width:1000px) {
+.project1{
+    margin: 50px 0;
+
+}
+.text-content h2{
+    font-size: 18px;
+}
+.text-content h2 span, span{
+    font-size: 16px;
+    margin-right: 8px;
+    color: #99480e;
+}
+.img img{
+    width: 400px;
+    height: 200px;
+    transition: .5s;
+}
+}
+@media (max-width:850px) {
+    .project1{
+        display: block;
+        text-align: center;
+    }
+    .text-content{
+        display: inline-block;
+        order: 1;
+        }
+}
